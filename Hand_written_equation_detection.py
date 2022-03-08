@@ -1,3 +1,8 @@
+!add-apt-repository -y ppa:alex-p/tesseract-ocr-devel
+!apt-get update0
+!apt-get install tesseract-ocr
+!pip install pytesseract
+
 import pytesseract 
 import cv2
 import numpy as np
