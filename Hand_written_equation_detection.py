@@ -1,5 +1,5 @@
 !add-apt-repository -y ppa:alex-p/tesseract-ocr-devel
-!apt-get update0
+!apt-get update
 !apt-get install tesseract-ocr
 !pip install pytesseract
 
