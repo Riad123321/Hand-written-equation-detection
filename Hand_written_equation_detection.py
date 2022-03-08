@@ -8,7 +8,7 @@ import cv2
 import numpy as np
 from imutils.contours import sort_contours
 from google.colab.patches import cv2_imshow
-cap = cv2.VideoCapture('./equation.mp4') #path to your video
+cap = cv2.VideoCapture(Video Path) #path to your video
 rectKernel = cv2.getStructuringElement(cv2.MORPH_RECT,(30,10))
 import imutils
 
